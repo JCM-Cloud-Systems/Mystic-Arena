@@ -1,4 +1,4 @@
-# MYSTICAL Arena 
+# MYSTIC Arena 
 An open source project for beginners to get started with system design, java problem solving, junit, swagger and documentation.
 
 ## Problem Statement :
