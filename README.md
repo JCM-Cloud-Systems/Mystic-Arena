@@ -1,6 +1,8 @@
 # MYSTIC Arena 
 An open source project for beginners to get started with system design, java problem solving, junit, swagger and documentation.
 
+![img.png](img.png)
+
 ## Problem Statement :
 
 - Design a Mystic Arena. Every Player is defined by a “health” attribute, “strength” attribute and an “attack” attribute - all positive integers. The player dies if his health attribute touches 0.
