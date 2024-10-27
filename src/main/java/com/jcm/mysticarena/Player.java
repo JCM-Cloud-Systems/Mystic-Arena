@@ -70,7 +70,7 @@ class Player {
     // Method to calculate the defense strength of the player
     public int calculateDefendStrength() {
         int diceValue = rollDice();
-        int defendValue = strength + diceValue; // issue in defend value
+        int defendValue = strength*diceValue; // issue in defend value
         System.out.println(this.getPlayerName() + ": Defend Value: " + defendValue);
         return defendValue;
     }
