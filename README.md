@@ -59,5 +59,5 @@ Method : 86%
 Line:  : 82%
 
 
-You can view the detailed test coverage report generated using JaCoCo in the HTML Report at following location:` \MagicalArena\htmlReport\index.html `
+
     
