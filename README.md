@@ -19,15 +19,15 @@ An open source project for beginners to get started with system design, java pro
 Project has been made to accommodate  requirements and scenarios mentioned in the above problem statement. Mystic Arena is a Java console game where players engage in battles using health, strength, and attack attributes. Players roll dice to execute attacks and defend against opponents' attacks, with the objective of reducing their opponents' health to zero. This fast-paced and strategic game continues until one player's health is depleted.
 
 ## Getting Started
-A. Using Intellij IDEA(IDE)
+A. Using Intellij IDEA(IDE)s
 1. Download and extract the zip file.
 2. Open IDE and select File -> Open(Open the project directory MagicalArena)
-3. Open and run the main class located at ` MagicalArena\src\main\java\com\swiggy\magicalarena\Main.java `
+3. Open and run the main class located at ` src/main/java/com/jcm/mysticarena/Main.java `
 
 B. Using Command Line:
 1. Download and extract the zip file.
 2. Navigate to Project directory -> cd MagicalArena
-3. Compile Java files: ` javac src/main/java/com/swiggy/magicalarena/*.java `
+3. Compile Java files: ` javac src/main/java/com/jcm/mysticarena/*.java `
 4. Run the Main class:` java -cp src\main\java com.jcm.mysticarena.Main `
 
 ## How to play
@@ -42,17 +42,21 @@ B. Using Command Line:
 ## Project Structure:
 
 - `pom.xml`: Maven configuration file.
-- `src/main/java/com/swiggy/magicalarena`: Contains the source code of the Magical Arena project.
+- `src/main/java/com/jcm/mysticarena`: Contains the source code of the Magical Arena project.
     - `Main.java`: Entry point of the program.
     - `Player.java`: Class representing a player in the game.
     - `MagicalArena.java`: Class representing the magical arena where the battles take place.
-- `src/test/java/com/swiggy/magicalarena`: Contains unit test classes.
+- `src/test`: Contains unit test classes.
     - `PlayerTest.java`: Unit tests for the `Player` class.
     - `MagicalArenaTest.java`: Unit tests for the `MagicalArena` class.
     - `MainTest.java`: Unit tests for the `Main` class.
 - `htmlReport/index.html` : Test Coverage Report
 
-
+## Test Coverage Report:
+Project Unit Test Coverage Status:
+Class  : 100%
+Method : 86%
+Line:  : 82%
 
 
 You can view the detailed test coverage report generated using JaCoCo in the HTML Report at following location:` \MagicalArena\htmlReport\index.html `
